@@ -5,7 +5,7 @@ export const ImageCard = ({ imageUrl, altText = "image", title, description }) =
       <div className="max-w-sm mx-auto overflow-hidden shadow-lg bg-white rounded-lg h-[36rem]">
         <div className="relative w-full h-[25rem]">
           <img
-            src={imageUrl}
+            src='./praise.jpg'
             alt={altText}
             className="w-full h-full object-cover"
           />
